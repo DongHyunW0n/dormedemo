@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/date_text"
+            android:text="2022 / 02 / 04 "
+            android:textColor="#000000"
+            android:background="#FFFFFF">
+
+
+        </TextView>
+
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/menu_text1"
+            android:text="Today's BreakFast : Tomato Salad"
+            android:textColor="#000000"
+            android:background="#FFFFFF">
+            >
+
+
+        </TextView>
+
+        <TextView
+            android:textAlignment="center"
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/menu_text2"
+            android:text="Today's Lunch : Sushi"
+            android:textColor="#000000"
+            android:background="#FFFFFF">
+            >
+
+
+        </TextView>
+
+
+        <TextView
+
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/menu_text3"
+            android:text="Today's Dinner : Beef Steak"
+            android:textColor="#000000"
+            android:background="#FFFFFF">
+            >
+
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchbar">
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="    Dormitory Life"
+            android:textSize="30dp"
+            android:textColor="#000000">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#FFFFFF">
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F7F3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/jointurchaselogo">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/taxi">
+
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/laundry">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/delivery">
+
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/roommate">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/fix">
+
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/notice">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/membership">
+
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/chat">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/board">
+
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/restaurant">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:background="@drawable/mypage">
+
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
